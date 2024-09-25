@@ -45,7 +45,9 @@ This 100 Days ML challenge is designed to learn and develop production-ready mac
 - Deploy the trained model as a REST service
 
 ### Day 2: Deploy a Linear Regression Model using Streamlit
-- (Tasks to be added)
+- Learn Streamlit Basics: Explore the official Streamlit documentation to understand how Streamlit works and how to build interactive web apps with Python.
+- Build the User Interface:Create a user-friendly interface where users can input features for the model,Use Streamlit components,Display outputs such as prediction results, charts, and any relevant visualizations 
+- Deploy the trained model as REST service
 
 ### Day 3: Deploy a Deep Learning Model using Streamlit
 - (Tasks to be added)
