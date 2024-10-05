@@ -14,11 +14,10 @@ def plot_graphs(history, metric):
   plt.legend([metric, 'val_'+metric])
   
 # Input pipeline 
-dataset, info = tfds.load('imdb_reviews', with_info=True,
-                          as_supervised=True)
+dataset, info = tfds.load('imdb_reviews', with_info=True,as_supervised=True)
 train_dataset, test_dataset = dataset['train'], dataset['test']
 
-train_dataset.element_spec
+print(train_dataset.element_spec)
 
 for example, label in train_dataset.take(1):
   print('text: ', example.numpy())
