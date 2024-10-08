@@ -50,8 +50,11 @@ This 100 Days ML challenge is designed to learn and develop production-ready mac
 - Deploy the trained model as REST service
 
 ### Day 3: Deploy a Deep Learning Model using Streamlit
-- Create UI using streamlit
-- Deploy the trained model as REST service
+- Intergrated LSTM model for sentiment prediction
+- Built a web interface using Streamlit for user input and model predictions
+- Implemented review preprocessing and sentiment classification
+- Deploy sentiment analysis LSTM trained model with Streamlit UI
+
 
 ## 🚀 Join the Journey
 
