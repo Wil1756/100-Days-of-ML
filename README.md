@@ -55,6 +55,16 @@ This 100 Days ML challenge is designed to learn and develop production-ready mac
 - Implemented review preprocessing and sentiment classification
 - Deploy sentiment analysis LSTM trained model with Streamlit UI
 
+### Day 4: Deploy using Docker
+- Read Chapter 4: ML Deployment using Docker
+- Create a Flask App including UI
+- Create Docker image
+- Push our Docker image to DockerHub
+
+### Day 5: To be added....
+
+
+
 
 ## 🚀 Join the Journey
 

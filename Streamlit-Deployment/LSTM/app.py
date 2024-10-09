@@ -10,6 +10,7 @@ def load_model():
         loaded_model_json = json_file.read()
     
     model = model_from_json(loaded_model_json)
+    
     # Load the model weights
     model.load_weights("my_model.keras")
     
@@ -39,7 +40,7 @@ def sentiment_prediction(review, model):
 def run():
     st.title("Sentiment Analysis - LSTM Model")
     
-    # HTML template if you need to include some custom styling (currently empty)
+    # HTML template ( empty)
     html_temp = """
     """
     st.markdown(html_temp, unsafe_allow_html=True)
@@ -54,7 +55,7 @@ def run():
     if st.button("Predict Sentiment"):
         model = load_model()  
         prediction = sentiment_prediction(review, model) 
-        st.success(f"The sentiment predicted by the model: {prediction}")
+        st.success("The sentiment predicted by the model: {prediction}")
 
 # Entry point for running the app
 if __name__ == '__main__':
