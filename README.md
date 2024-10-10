@@ -56,15 +56,17 @@ This 100 Days ML challenge is designed to learn and develop production-ready mac
 - Deploy sentiment analysis LSTM trained model with Streamlit UI
 
 ### Day 4: Deploy using Docker
-- Read Chapter 4: ML Deployment using Docker
-- Create a Flask App including UI
-- Create Docker image
-- Push our Docker image to DockerHub
+- Read Chapter 4: ML Deployment using Docker, Understand the fundamentals of containerization with Docker
+- Create a Flask application with a user interface for ML model interaction
+- Build and manage Docker images
+- Publish Docker images to DockerHub
+
+### Day 5: ML Deployment using Kubernetes
+- Read Chapter 5: ML Deployment using Kubernetes, Grasp the core concepts of Kubernetes for container orchestration
+- Set up a Google Cloud Platform environment for Kubernetes deployment
+- Deploy a containerised ML application on GCP using Kubernetes.
 
 ### Day 5: To be added....
-
-
-
 
 ## 🚀 Join the Journey
 
