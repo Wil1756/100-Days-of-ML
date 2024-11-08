@@ -1,0 +1,16 @@
+# Project Information
+site_name: 100-Days-of-ML
+site_description: Deploys a Linear Regression Model
+site_author: William
+
+# Respository
+repo_url: https://github.com/Wil1756/100-Days-of-ML
+repo_name: 100-Days-of-ML
+edit_uri: ""
+
+# Page Tree
+
+nav:
+  - Home:
+    - 100-Days-of-ML: index.md
+
